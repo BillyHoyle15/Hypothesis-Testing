@@ -40,3 +40,23 @@ z = 1.96
 Z > z so we reject the Null Hyhothesis (H0), avarage software developer salary
 is not 113000 USD.
 '''
+
+'''*****************p-value****************
+p-value is the smallest level of significance at which we can still reject the
+null hypothesis, given the observed sample statistic
+
+p-value is a universal concept that works with every distribution (normal,
+student's T, binomial, uniform etc.)
+
+We should reject the null hypothesis if p-value < significance level
+use the link below the calculate p-value for Z-score and significance level
+p-value calculator: www.socscistatistics.com/pvalues/normaldistribution.aspx
+
+Our Z_score is -4.67
+significance level is 0.05 (95%)
+we are looking for two sided (tailed) test
+
+result is: 
+The P-Value is < .00001
+The result is significant at p < .05
+'''
